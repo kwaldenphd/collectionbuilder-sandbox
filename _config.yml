@@ -41,11 +41,7 @@ organization-logo-nav: logo.png
 metadata: bagby_collectionbuilder 
 
 ##########
-# GOOGLE SERVICES [optional!]
-##########
-# ROBOTS EXCLUDE
-#
-# set noindex to true if you do NOT want Google to index your site
+# GOOGLE SERVICES set noindex to true if you do NOT want Google to index your site
 noindex: true
 
 ##########
