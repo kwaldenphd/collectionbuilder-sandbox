@@ -3,33 +3,26 @@ layout: page
 ---
 {%- assign items = site.data[site.metadata] -%}
 <div class="col-md-12">
-
 {% include index/carousel.html height=600 %}
-
-</div>
-<div class="col-md-4">
-
-{% include index/time.html %}
-
-</div>
-<div class="col-md-4">
-
-{% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="info" %}
-
-</div>
-<div class="col-md-4">
-
-{% include index/objects.html %}
-
-</div>
-
-<div class="col-md-6">
 
 {% include index/description.html %}
 
 </div>
-<div class="col-md-6">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+
+{% include index/time.html %}
+</div>
+<div class="col-sm"
+
+{% include index/objects.html %}
+
+</div>
+<div class="col-sm">
 
 {% include index/data-download.html %}
 
+</div>
+</div>
 </div>
