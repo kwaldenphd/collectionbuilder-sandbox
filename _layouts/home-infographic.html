@@ -1,9 +1,10 @@
 ---
 layout: page
 ---
-{%- assign items = site.data[site.metadata] -%}
-{% include index/description.html %}
-{% include index/carousel.html title="Sample Materials" %}
+<div>
+  {%- assign items = site.data[site.metadata] -%}
+  {% include index/description.html %}
+  {% include index/carousel.html title="Sample Materials" %}
 </div>
 <div class="container">
 <div class="row">
