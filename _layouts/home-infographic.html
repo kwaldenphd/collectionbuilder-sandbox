@@ -2,10 +2,11 @@
 layout: page
 ---
 {%- assign items = site.data[site.metadata] -%}
-<div class="col-md-12">
-<figure class="figure">
-<img src="header.jpg" class="img-fluid" alt= "Cover of 1931 Knute Rockne memorial Scholastic football review"></img></figure>
 {% include index/description.html %}
+</div>
+<div class="col-md-8">
+{% include index/description.html %}
+{% include index/carousel.html title="Sample Materials" %}
 </div>
 <div class="container">
 <div class="row">
